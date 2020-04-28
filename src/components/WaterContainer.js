@@ -12,7 +12,7 @@ class WaterContainer extends React.Component {
   render() {
     var stateOfMatter;
     var imageMatter;
-    var imageMatterStyle = {width:'800px'};
+    var imageMatterStyle = {width:'600px'};
 
     if (this.state.currentTemp <= 32) {
         stateOfMatter = 'Solid';
